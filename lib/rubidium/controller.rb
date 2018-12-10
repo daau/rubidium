@@ -1,8 +1,11 @@
 require "erubis"
 require "rubidium/utilities"
+require "rubidium/file_model"
 
 module Rubidium
   class Controller
+    include Rubidium::Model
+    
     def initialize(env)
       @env = env
     end

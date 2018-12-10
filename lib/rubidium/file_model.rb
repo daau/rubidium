@@ -27,6 +27,15 @@ module Rubidium
           return nil
         end
       end
+
+      def self.all
+        files = Dir["db/dogs/*.json"]
+        files.map { |f| FileModel.new(f) }
+      end
+
+      def self.create(attrs)
+        # TODO
+      end
     end
   end
 end
