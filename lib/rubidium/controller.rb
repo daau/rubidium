@@ -1,4 +1,5 @@
 require "erubis"
+require "rubidium/utilities"
 
 module Rubidium
   class Controller

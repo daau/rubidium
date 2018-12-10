@@ -1,9 +1,9 @@
 require "pry-byebug"                  # First thing
 require "rubidium/version"
 require "rubidium/routing"
-require "rubidium/array"
 require "rubidium/dependencies"
 require "rubidium/controller"
+require "rubidium/file_model"
 
 module Rubidium
   class Application
