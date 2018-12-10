@@ -1,8 +1,10 @@
 # Rubidium
-
 This is a MVC micro webframework, built on top of Rack. This application was built 
 specifically for the purposes of learning how Ruby on Rails works under the hood. In fact, you will notice that
 many conventions were inspired by Rails.
+
+## Example
+See [daau/rubidium-web-app](https://github.com/daau/rubidium-web-app) for an example of a simple web application built using rubidium.
 
 ## Controllers
 The controller is located at `rubidium/controller.rb` 
